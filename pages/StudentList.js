@@ -27,7 +27,7 @@ export default function StudentList() {
             });
     }, []);
     
-    // Using a style utility for centering, falling back to inline styles if 'center' is missing
+
     const centerStyle = styles.center || { flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#F5F5DC' };
 
     if (loading) {

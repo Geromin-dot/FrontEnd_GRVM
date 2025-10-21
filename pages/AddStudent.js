@@ -1,5 +1,4 @@
 import { View, Text, Button, TextInput} from 'react-native';
-// Assuming 'styles' points to your style sheet
 import styles from '../style'; 
 import { useState } from 'react';
 import axios from "axios";
@@ -12,7 +11,6 @@ export default function Register({ navigation }) {
         year_level: '',
     });
 
-    // Helper function to update state based on field name
     const handleChange = (name, text) => {
         setFormData({ ...formData, [name]: text });
     };
